@@ -1,0 +1,39 @@
+BOOLEAN BACKPATCHING:
+  This Program Takes A Block Of Statements As Input And Displays Backpatching For Boolean Expressions
+  This Program Works For Array Also
+  
+  
+SAMPLE INPUT:
+{
+int a[2][3][4],b,c,d[2],e;
+if(c>b)
+{
+	c=e+b;
+}
+else
+{
+	b=a[a[1][1][1]][0][0];
+}
+}
+
+
+OUTPUT:
+0 if(c > b) goto 2
+1 goto 5
+2 t0 = e + b
+3 c = t0
+4 goto
+5 t1 = 1 * 48
+6 t2 = 1 * 16
+7 t3 = t1 + t2
+8 t4 = 1 * 4
+9 t5 = t3 + t4
+10 t6 = a[t5]
+11 t7 = t6 * 48
+12 t8 = 0 * 16
+13 t9 = t7 + t8
+14 t10 = 0 * 4
+15 t11 = t9 + t10
+16 t12 = a[t11]
+17 b = t12
+

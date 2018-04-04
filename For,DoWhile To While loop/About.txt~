@@ -1,0 +1,15 @@
+CONVERSION OF FOR AND DOWHILE LOOP TO WHILE LOOP:
+  This Program Converts The For Loop To While Loop Without Affecting The Semantics
+  This Program Converts The DoWhile Loop To While Loop Without Affecting The Semantics
+  
+  
+SAMPLE INPUT:
+for(int i=0;i<n;i++)
+{
+	c=a+b;
+	for(int j=0;j<n;j++)
+	{
+		c=a-b;
+	}
+}
+

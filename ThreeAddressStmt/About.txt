@@ -1,0 +1,15 @@
+THREE ADDRESS CODE GENERATION:
+  This Program Generates Intermediate Code (Three Address)
+  It Takes An Statement As Input And Displays Three Address Code For That Statement
+  
+  
+SAMPLE INPUT:
+ans = (a+b)*c-d/e^5
+
+OUTPUT:
+t0 = a + b
+t1 = t0 * c
+t2 = e ^ 5
+t3 = d / t2
+t4 = t1 - t3
+ans = t4

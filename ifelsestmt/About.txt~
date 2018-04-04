@@ -1,0 +1,11 @@
+IFELSE STATEMENT
+  Lex And Yacc Program For If and IfElse Statement
+  This Program Checks For Matching else Statement For Corresponding If Statement
+  It Insert a Else Statment With Empty Content When Matching Else Is Not Found
+
+SAMPLE INPUT ('$' denotes End Of Input)
+if(c){s1}$
+
+
+OUTPUT
+if(c){s1}ELSE{;}

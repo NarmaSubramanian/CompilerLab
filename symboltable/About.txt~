@@ -1,0 +1,27 @@
+SymbolTable Generation:
+    This Program Takes A Block Of Statements As Input And Displays SymbolTable Entry Along With The Respective Block Number
+ 
+SAMPLE INPUT
+{
+	int a,b;
+	float d,e;
+	{
+		char c='c';
+		float x;
+	}
+	{
+		int y=13;
+		{
+			float p=0.5,q;
+			char h;
+		}
+		char z;
+	}
+} 
+ 
+OUTPUT
+Block Number 2: int a b float d e char c='c' float x 
+Block Number 4: int a b float d e int y=13 float p=0.5 q char h 
+Block Number 3: int a b float d e int y=13 char z 
+Block Number 1: int a b float d e 
+

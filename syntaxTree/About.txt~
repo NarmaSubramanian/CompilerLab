@@ -1,0 +1,5 @@
+SYNTAX TREE CONSTRUCTION:
+  This Program Provides Syntax Tree For Expressions
+  Syntax Tree Will Not Have Parenthesis Originally
+  But The Output Specified Here Will Have Parenthesis Only For Understanding Of Users
+  Any Tree Traversal Can Be Followed , Here PreOrder Traversal Is Implemented
